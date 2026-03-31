@@ -4,7 +4,7 @@
 # Demonstrates: Input validation (while loops), file redirection, string interpolation.
 
 echo "=================================================="
-echo "      Open Source Manifesto Generator v1.0"
+echo "      Open Source Manifesto Generator v4.0"
 echo "=================================================="
 
 # Function to safely read input and ensure it's not empty
