@@ -1,0 +1,23 @@
+Oct 24 08:15:01 vityarthi-vm CRON[4192]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 24 08:16:22 vityarthi-vm systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 24 08:17:42 vityarthi-vm systemd[1]: Started Gunicorn daemon for Python Web Application.
+Oct 24 08:17:45 vityarthi-vm gunicorn[4210]: [2025-10-24 08:17:45 +0000] [4210] [INFO] Starting gunicorn 21.2.0
+Oct 24 08:17:45 vityarthi-vm gunicorn[4210]: [2025-10-24 08:17:45 +0000] [4210] [INFO] Listening at: http://127.0.0.1:8000 (4210)
+Oct 24 08:17:45 vityarthi-vm gunicorn[4210]: [2025-10-24 08:17:45 +0000] [4215] [INFO] Booting worker with pid: 4215
+Oct 24 08:22:10 vityarthi-vm python3[4215]: [ERROR] sqlalchemy.exc.OperationalError: (MySQLdb.OperationalError) (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
+Oct 24 08:22:15 vityarthi-vm python3[4215]: [INFO] Database connection re-established via TCP fallback.
+Oct 24 08:25:33 vityarthi-vm apache2[892]: [core:notice] [pid 892] AH00094: Command line: '/usr/sbin/apache2'
+Oct 24 08:30:12 vityarthi-vm python3[4215]: [WARNING] DeprecationWarning: The 'werkzeug.urls' module is deprecated and will be removed in Werkzeug 3.0.
+Oct 24 08:45:01 vityarthi-vm CRON[4820]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Oct 24 09:01:00 vityarthi-vm kernel: [  145.123456] Out of memory: Killed process 4215 (gunicorn) total-vm:402832kB, anon-rss:90210kB, file-rss:0kB
+Oct 24 09:01:02 vityarthi-vm gunicorn[4210]: [2025-10-24 09:01:02 +0000] [4210] [ERROR] Worker (pid:4215) was sent SIGKILL! Perhaps out of memory?
+Oct 24 09:01:05 vityarthi-vm gunicorn[4210]: [2025-10-24 09:01:05 +0000] [5102] [INFO] Booting worker with pid: 5102
+Oct 24 09:12:44 vityarthi-vm sshd[5211]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Oct 24 09:12:46 vityarthi-vm sshd[5211]: Connection closed by invalid user admin 192.168.1.100 port 54321 [preauth]
+Oct 24 09:15:22 vityarthi-vm systemd[1]: python-app.service: Main process exited, code=exited, status=1/FAILURE
+Oct 24 09:15:22 vityarthi-vm systemd[1]: python-app.service: Failed with result 'exit-code'.
+Oct 24 09:15:22 vityarthi-vm systemd[1]: ERROR: Failed to start Python Web Application due to module 'flask_cors' not found.
+Oct 24 09:20:01 vityarthi-vm app-monitor[5300]: [CRITICAL ERROR] Application health check timed out on port 8000. Service marked as offline.
+Oct 24 09:25:00 vityarthi-vm systemd[1]: Starting system activity accounting tool...
+Oct 24 09:25:00 vityarthi-vm systemd[1]: sysstat-collect.service: Deactivated successfully.
+Oct 24 09:25:00 vityarthi-vm systemd[1]: Finished system activity accounting tool.
