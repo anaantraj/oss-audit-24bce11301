@@ -9,7 +9,7 @@ KEYWORD=${2:-"error"}
 
 # Validate file exists and is readable
 if [ ! -r "$LOGFILE" ]; then
-    echo "Error: Cannot read file '$LOGFILE'. Try running with sudo or check path."
+    echo "Error: Cannot read file '$LOGFILE'. Try running with sudo or check path again."
     exit 1
 fi
 
