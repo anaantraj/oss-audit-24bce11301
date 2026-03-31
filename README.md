@@ -5,7 +5,7 @@
 **Target Software:** Python 3  
 
 ## 1. Project Overview
-This repository serves as the technical deliverable for the Open Source Audit capstone project. It contains a suite of five defensive, POSIX-compliant shell scripts designed to audit, monitor, and interact with the Python open-source ecosystem on a Linux machine. 
+This repository serves as the technical deliverable for the Open Source Audit final project. It contains a suite of five defensive, POSIX-compliant shell scripts designed to audit, monitor, and interact with the Python open-source ecosystem on a Linux machine. 
 
 Choosing Python for this audit was a deliberate architectural choice. As it forms the foundational infrastructure for modern machine learning pipelines and my ongoing research workflows, understanding how it interacts with the underlying Linux kernel—its package managers, standard libraries, and system daemon logs—is a critical technical requirement.
 
