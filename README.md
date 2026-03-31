@@ -1,6 +1,6 @@
 # Open Source Audit: The Python Ecosystem
 **Author:** Anaant Raj  
-**Institution:** Vellore Institute of Technology (VIT) Bhopal  
+**Institution:** VIT University  
 **Course:** CSE0002: Open Source Software | NGMC  
 **Target Software:** Python 3  
 
