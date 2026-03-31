@@ -34,7 +34,7 @@ for PKG in "${PACKAGES[@]}"; do
         echo -e "[-] $PKG is NOT installed."
     fi
 
-    # Philosophical breakdown via case statement
+    #Philosophical breakdown via case statement
     case $PKG in
         "python3")
             echo "    -> Python: The architectural glue of modern AI and data systems." ;;
